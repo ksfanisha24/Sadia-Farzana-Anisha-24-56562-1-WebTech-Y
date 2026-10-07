@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Library Member Profile</title>
+
+    <!-- Favicon -->
+    <link rel="icon" href="favicon.png">
+</head>
+
+<body>
+
+    <!-- Heading -->
+    <h1>Library Member Profile</h1>
+
+    <!-- Paragraph -->
+    <p>This webpage is for library member registration.</p>
+
+    <!-- Bold and Italic -->
+    <p>
+        <b>Welcome to our Library!</b>
+        <i>Please register to become a member.</i>
+    </p>
+
+    <!-- Block Elements -->
+    <div>This is Block 1</div>
+    <div>This is Block 2</div>
+
+    <!-- Inline Elements -->
+    <span>This is Inline 1</span>
+    <span>This is Inline 2</span>
+
+    <br>
+    <br>
+
+    <!-- Anchor -->
+    <a href="https://www.google.com" target="_blank">
+        Visit Google
+    </a>
+
+    <br>
+    <br>
+
+    <!-- Image -->
+    <img src="library.jpg" alt="Library Image" width="200">
+
+    <br>
+    <br>
+
+    <!-- Member Table -->
+    <h2>Library Members</h2>
+
+    <table border="1">
+
+        <tr>
+            <th>Member ID</th>
+            <th>Name</th>
+            <th>Email</th>
+            <th>Image</th>
+        </tr>
+
+        <tr>
+            <td>101</td>
+            <td>John Doe</td>
+            <td>john@gmail.com</td>
+            <td>
+                <img src="member.jpg" alt="Member Image" width="100">
+            </td>
+        </tr>
+
+        <tr>
+            <td>102</td>
+            <td>John Doee</td>
+            <td>johnn@gmail.com</td>
+            <td>
+                <img src="member.jpg" alt="Member Image" width="100">
+            </td>
+        </tr>
+
+    </table>
+
+    <br>
+
+    <!-- Membership Registration Form -->
+    <h2>Membership Registration Form</h2>
+
+    <form action="" method="get">
+
+        <table>
+
+            <!-- Name -->
+            <tr>
+                <td>
+                    <label for="name">Name</label>
+                </td>
+
+                <td>
+                    <input type="text"
+                           id="name"
+                           name="name"
+                           placeholder="Enter your name"
+                           required>
+                </td>
+            </tr>
+
+            <!-- Email -->
+            <tr>
+                <td>
+                    <label for="email">Email</label>
+                </td>
+
+                <td>
+                    <input type="email"
+                           id="email"
+                           name="email"
+                           placeholder="Enter your email"
+                           required>
+                </td>
+            </tr>
+
+            <!-- Password -->
+            <tr>
+                <td>
+                    <label for="password">Password</label>
+                </td>
+
+                <td>
+                    <input type="password"
+                           id="password"
+                           name="password"
+                           placeholder="Enter your password"
+                           required>
+                </td>
+            </tr>
+
+            <!-- Age -->
+            <tr>
+                <td>
+                    <label for="age">Age</label>
+                </td>
+
+                <td>
+                    <input type="number"
+                           id="age"
+                           name="age"
+                           placeholder="Enter your age"
+                           required>
+                </td>
+            </tr>
+
+            <!-- DOB -->
+            <tr>
+                <td>
+                    <label for="dob">DOB</label>
+                </td>
+
+                <td>
+                    <input type="date"
+                           id="dob"
+                           name="dob"
+                           required>
+                </td>
+            </tr>
+
+            <!-- Gender -->
+            <tr>
+                <td>Gender</td>
+
+                <td>
+
+                    <input type="radio"
+                           id="male"
+                           name="gender"
+                           value="male"
+                           required>
+                    <label for="male">Male</label>
+
+                    <input type="radio"
+                           id="female"
+                           name="gender"
+                           value="female"
+                           required>
+                    <label for="female">Female</label>
+
+                </td>
+            </tr>
+
+            <!-- Membership Type -->
+            <tr>
+                <td>
+                    <label for="membership">Membership Type</label>
+                </td>
+
+                <td>
+                    <select id="membership"
+                            name="membership"
+                            required>
+
+                        <option value="">Select Type</option>
+                        <option value="regular">Regular</option>
+                        <option value="premium">Premium</option>
+                        <option value="student">Student</option>
+
+                    </select>
+                </td>
+            </tr>
+
+            <!-- File -->
+            <tr>
+                <td>
+                    <label for="file">Profile Picture</label>
+                </td>
+
+                <td>
+                    <input type="file"
+                           id="file"
+                           name="file"
+                           required>
+                </td>
+            </tr>
+
+            <!-- Address -->
+            <tr>
+                <td>
+                    <label for="address">Address</label>
+                </td>
+
+                <td>
+                    <textarea id="address"
+                              name="address"
+                              rows="4"
+                              cols="30"
+                              placeholder="Enter your address"
+                              required></textarea>
+                </td>
+            </tr>
+
+            <!-- Terms -->
+            <tr>
+                <td>Terms</td>
+
+                <td>
+                    <input type="checkbox"
+                           id="terms"
+                           name="terms"
+                           value="accepted"
+                           required>
+
+                    <label for="terms">
+                        I agree to the terms
+                    </label>
+                </td>
+            </tr>
+
+            <!-- Submit -->
+            <tr>
+                <td></td>
+
+                <td>
+                    <button type="submit">Register</button>
+                </td>
+            </tr>
+
+        </table>
+
+    </form>
+
+</body>
+
+</html>
